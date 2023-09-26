@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplicationDrawer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/orange_red</item>
+        <item name="colorPrimaryVariant">@color/orange_red</item>
+        <item name="android:statusBarColor">@color/orange_red</item>
+    </style>
+    <style name="Circular">
+        <item name="cornerSize">50%</item>
+
+    </style>
+
+    <style name="Theme.MyApplicationDrawer" parent="Base.Theme.MyApplicationDrawer" />
+</resources>
